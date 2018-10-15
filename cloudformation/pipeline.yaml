@@ -89,7 +89,7 @@ Resources:
         Image: aws/codebuild/nodejs:7.0.0
       Source:
         Type: CODEPIPELINE
-        BuildSpec: "cloudformation/buildspec.yml"
+        BuildSpec: "cloudformation/buildspec.yaml"
       TimeoutInMinutes: 10
   Pipeline:
     Type: AWS::CodePipeline::Pipeline

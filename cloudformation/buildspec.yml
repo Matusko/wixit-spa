@@ -1,0 +1,19 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      - echo run npm install
+      - npm install
+  build:
+    commands:
+      - echo run Prod build
+      - npm run build
+  post_build:
+    commands:
+      - aws s3 cp --recursive --acl public-read dist/ s3://wixit-spa-core/
+artifacts:
+  type: zip
+  files:
+      - '**/*'
+  discard-paths: yes
+  base-directory: dist

@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href /wixit-spa/",
+    "build-dev": "ng build --base-href /wixit-spa/",
+    "build": "ng build --prod --aot --build-optimizer --base-href /wixit-spa/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -10,7 +10,7 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 cp --recursive --acl public-read dist/ s3://wixit-spa-core/
+      - aws s3 cp --recursive dist/ s3://wixit-spa-core/
 artifacts:
   type: zip
   files:

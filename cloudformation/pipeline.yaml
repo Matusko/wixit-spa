@@ -16,6 +16,12 @@ Parameters:
     Default: wixit-spa-core
   BaseHref:
     Type: String
+  StageLevel:
+    Type: String
+    Default: dev
+    AllowedValues:
+    - dev
+    - prod
 
 Resources:
   CodeBuildRole:

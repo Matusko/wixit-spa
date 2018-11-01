@@ -39,3 +39,4 @@ testem.log
 Thumbs.db
 
 cloudformation/pipeline-params.json
+cloudformation/pipeline-params-without-variables.json

@@ -7,10 +7,10 @@ phases:
   build:
     commands:
       - echo run Prod build
-      - npm run build
+      - npm run build -- --base-href $BASE_HREF
   post_build:
     commands:
-      - aws s3 cp --recursive dist/ s3://wixit-spa-core/
+      - aws s3 cp --recursive dist/ s3://$SITE_BUCKET/
 artifacts:
   type: zip
   files:

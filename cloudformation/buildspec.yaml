@@ -9,7 +9,7 @@ phases:
       - echo run Prod build
       - npm run build -- --base-href $BASE_HREF/ --output-path=dist/$BASE_HREF
       - mkdir config
-      - echo '{"name": "prod", "production": true, "settings": {"backend": "api.myapp.com"}}' > config/environment.json
+      - echo "{\"name\": \"prod\", \"production\": true, \"settings\": {\"backend\": \"api.myapp.com\"}}" > config/environment.json
       - cp -R config/ dist/$BASE_HREF
   post_build:
     commands:

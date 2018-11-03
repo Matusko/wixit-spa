@@ -10,7 +10,6 @@ environmentLoader.then(env => {
   if (environment.production) {
     enableProdMode();
   }
-  console.log("lolololo");
   environment.settings = env.settings;
 
   platformBrowserDynamic().bootstrapModule(AppModule);

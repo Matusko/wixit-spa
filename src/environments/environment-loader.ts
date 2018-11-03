@@ -2,7 +2,6 @@ import { environment as defaultEnvironment } from './environment';
 
 export const environmentLoader = new Promise<any>((resolve, reject) => {
   if (defaultEnvironment.production) {
-    console.log("asas");
     var xmlhttp = new XMLHttpRequest(),
       method = 'GET',
       url = './config/environment.json';

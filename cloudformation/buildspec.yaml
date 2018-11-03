@@ -14,6 +14,7 @@ phases:
       - cp -R config/ dist/$BASE_HREF
   post_build:
     commands:
+      - aws s3 rm s3://$SITE_BUCKET/$BASE_HREF --recursive
       - aws s3 cp --recursive dist/ s3://$SITE_BUCKET/
 artifacts:
   type: zip

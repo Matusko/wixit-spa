@@ -1,7 +1,6 @@
 {
-  "params": "wixit-spa/pipeline-params-without-variables.json",
-  "template": "wixit-spa/pipeline.yaml",
-  "stack-name-prefix": "wixit-spa",
+  "params": "cloudformation/params-template.json",
+  "template": "cloudformation/pipeline.yaml",
   "branch-key": "GitHubBranch",
   "artifact-store-key": "",
   "context-path-key": "BaseHref",

@@ -1,5 +1,9 @@
 [
   {
+    "ParameterKey": "ArtifactBucket",
+    "ParameterValue": "ARTIFACT_STORE"
+  },
+  {
     "ParameterKey": "GitHubRepo",
     "ParameterValue": "wixit-spa"
   },

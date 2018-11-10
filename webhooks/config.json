@@ -1,10 +1,5 @@
 {
   "params": "cloudformation/params-template.json",
   "template": "cloudformation/pipeline.yaml",
-  "branch-key": "GitHubBranch",
-  "artifact-store-key": "",
-  "context-path-key": "BaseHref",
-  "infrastructure-key": "",
-  "infrastructure": "",
-  "stage-level-key": "StageLevel"
+  "infrastructure": ""
 }

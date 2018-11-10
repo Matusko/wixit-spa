@@ -1,0 +1,30 @@
+[
+  {
+    "ParameterKey": "ArtifactBucket",
+    "ParameterValue": "ARTIFACT_STORE"
+  },
+  {
+    "ParameterKey": "GitHubRepo",
+    "ParameterValue": "wixit-spa"
+  },
+  {
+    "ParameterKey": "GitHubBranch",
+    "ParameterValue": "GIT_HUB_BRANCH"
+  },
+  {
+    "ParameterKey": "GitHubUser",
+    "ParameterValue": "Matusko"
+  },
+  {
+    "ParameterKey": "GitHubToken",
+    "ParameterValue": "GIT_HUB_TOKEN"
+  },
+  {
+    "ParameterKey": "BaseHref",
+    "ParameterValue": "CONTEXT_PATH"
+  },
+  {
+    "ParameterKey": "StageLevel",
+    "ParameterValue": "STAGE_LEVEL"
+  }
+]
